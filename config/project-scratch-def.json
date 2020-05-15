@@ -1,5 +1,17 @@
 {
   "orgName": "Demo company",
   "edition": "Developer",
-  "features": []
+  "features": ["API","PersonAccounts","ContactsToMultipleAccounts","FinancialServicesUser:5", "ServiceCloud"],
+  "settings": {
+  "accountSettings":{
+    "enableAccountHistoryTracking": true,    
+    "enableContactHistoryTracking": true,
+    "enableRelateContactToMultipleAccounts": true,
+    "showViewHierarchyLink": true
+   },
+   "nameSettings":{
+        "enableMiddleName": true,
+        "enableNameSuffix": true
+   }
+  }
 }
